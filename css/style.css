@@ -1,18 +1,76 @@
 /* reset */
-/* font-family: 'Long Cang', cursive; */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-p{
-    margin-bottom: 0.8rem;
+p {
+  margin-bottom: 0.8rem;
 }
-a{
-    color: #333; 
-    text-decoration: none;
+a {
+  color: #333;
+  text-decoration: none;
 }
+
+/* ************** start vp-container  ********************* */
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ************** end vp-container  ********************* */
+
+/* ************** Start header  ********************* */
+header {
+  padding: 1rem 2rem;
+  background: #333;
+  display: flex;
+  flex: row nowrap;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+}
+.vp-logo {
+  font-size: 2.8rem;
+  margin-bottom: 0;
+  font-family: "Long Cang", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.vp-logo i {
+  color: #f9ca24;
+  font-size: 0.8rem;
+  margin-right: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+header ul li a:hover {
+    color: #f9ca24;
+}
+
+/* ************** end header  ********************* */
+
+/* ************** Start vp  ********************* */
+.vp {
+  flex: auto;
+}
+
+/* ************** end vp  ********************* */
