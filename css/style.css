@@ -24,12 +24,18 @@ strong {
 ul {
   list-style: none;
 }
+em{
+  color: #555;
+}
+.fa-solid{
+  color: #3498db;
+}
 .title {
   font-weight: 300;
   font-size: 2rem;
   margin-bottom: 3rem;
 }
-.bg-dark{
+.bg-dark {
   background: #333;
   color: white;
 }
@@ -95,6 +101,7 @@ header ul li a:hover {
 /* ************** Start vp  ********************* */
 .vp {
   flex: auto;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,17 +179,17 @@ header ul li a:hover {
 }
 
 /* who */
-.who{
+.who {
   display: flex;
   flex-flow: row nowrap;
 }
 .who-content-img img {
   width: 100%;
 }
-.who-content-img{
+.who-content-img {
   flex: 1;
 }
-.who-content-text{
+.who-content-text {
   flex: 1;
   padding: 4rem;
   display: flex;
@@ -192,4 +199,37 @@ header ul li a:hover {
 .who-content-text p {
   font-size: 1.3rem;
   line-height: 1.8rem;
+}
+/* Testimonials */
+.testimonials {
+  padding: 5rem 1rem;
+}
+.testimonials-elem {
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.testimonials-elem-text{
+  padding: 0 2rem;
+}
+.testimonials-elem-text p{
+  font-size: 2em;
+}
+.testimonials-elem-profil img{
+  width: 50px;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-elem-profil p{
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #333;
+ 
 }
