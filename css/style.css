@@ -24,10 +24,10 @@ strong {
 ul {
   list-style: none;
 }
-em{
+em {
   color: #555;
 }
-.fa-solid{
+.fa-solid {
   color: #3498db;
 }
 .title {
@@ -215,21 +215,73 @@ header ul li a:hover {
   margin-bottom: 1rem;
   justify-content: space-between;
 }
-.testimonials-elem-text{
+.testimonials-elem-text {
   padding: 0 2rem;
 }
-.testimonials-elem-text p{
+.testimonials-elem-text p {
   font-size: 2em;
 }
-.testimonials-elem-profil img{
+.testimonials-elem-profil img {
   width: 50px;
   border-radius: 50px;
   margin-bottom: 0.5rem;
 }
 
-.testimonials-elem-profil p{
+.testimonials-elem-profil p {
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: #333;
+}
+
+/* Contact */
+
+.contact {
+  padding: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: white;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+.contact-form button {
  
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #f9ca24;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.contact-form button:hover{
+  background: red;
+}
+/* Footer */
+footer{
+  background: #444;
+  padding: 5rem 1rem;
+}
+footer p {
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  font-weight: 400;
 }
